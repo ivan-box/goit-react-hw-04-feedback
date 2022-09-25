@@ -53,6 +53,7 @@ export class App extends Component {
         >
           {this.countTotalFeedback() !== 0 && (
             <Statistics
+              // style
               good={this.state.good}
               neutral={this.state.neutral}
               bad={this.state.bad}
